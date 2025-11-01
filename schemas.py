@@ -6,32 +6,27 @@ class User(BaseModel):
     email:str
     password:str
 
-class BlogBase(BaseModel):
-    title:str
-    body:str
+class CourseBase(BaseModel):
+    course_code: str
+    title: str
+    instructors: str
 
-class Blog(BlogBase):
-    title:str
-    body:str
+class Course(CourseBase):
+    class Config():
+        from_attributes = True
+
+class ShowCourse(BaseModel):
+    id: int
+    course_code: str
+    title: str
+    instructors: str
 
     class Config():
         from_attributes = True
-    
-
 
 class ShowUser(BaseModel):
     name:str
     email:str
-    blogs: List[Blog]
-    class Config():
-        from_attributes = True
-
-
-class ShowBlog(BaseModel):
-    title:str
-    body:str
-    creator: Optional[ShowUser]
-
     class Config():
         from_attributes = True
 
@@ -48,3 +43,30 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     email: str | None = None
+
+class CourseMaterialBase(BaseModel):
+    course_id: int
+    title: str
+    type: int
+    description: str
+    role: bool
+    score: int
+    file_link: str = ""  # Optional, defaults to empty string
+
+class CourseMaterial(CourseMaterialBase):
+    class Config():
+        from_attributes = True
+
+class ShowCourseMaterial(BaseModel):
+    id: int
+    course_id: int
+    title: str
+    type: int
+    description: str
+    role: bool
+    score: int
+    file_link: str
+    user_id: int
+
+    class Config():
+        from_attributes = True

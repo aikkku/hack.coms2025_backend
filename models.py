@@ -1,17 +1,13 @@
 from database import Base
-from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 
-
-class Blog(Base):
-    __tablename__ = 'blogs'
+class Course(Base):
+    __tablename__ = 'courses'
 
     id = Column(Integer, primary_key=True, index=True)
+    course_code = Column(String, unique=True, index=True)
     title = Column(String)
-    body = Column(String)
-    user_id = Column(Integer, ForeignKey("users.id"))
-
-    creator = relationship("User", back_populates="blogs")
+    instructors = Column(String)  # Storing as comma-separated string or JSON
 
 class User(Base):
     __tablename__ = 'users'
@@ -21,4 +17,15 @@ class User(Base):
     email = Column(String)
     password = Column(String)
 
-    blogs = relationship("Blog", back_populates="creator")
+class CourseMaterial(Base):
+    __tablename__ = 'course_materials'
+
+    id = Column(Integer, primary_key=True, index=True)
+    course_id = Column(Integer, ForeignKey("courses.id"), index=True)
+    title = Column(String)
+    type = Column(Integer)  # Type of material (assignment, exam, lecture, etc.)
+    description = Column(String)
+    role = Column(Boolean)  # Role/permission flag
+    score = Column(Integer)
+    file_link = Column(String)  # Link to file (for future S3 integration)
+    user_id = Column(Integer, ForeignKey("users.id"), index=True)  # User who created/submitted this material
