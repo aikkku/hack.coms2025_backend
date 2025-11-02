@@ -10,5 +10,6 @@ python-dotenv
 docx
 requests
 python-docx
+pypdf
 
 pandas
