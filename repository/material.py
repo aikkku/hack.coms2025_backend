@@ -38,6 +38,15 @@ def create(request: schemas.CourseMaterial, user_id: int, db: Session):
     db.add(new_material)
     db.commit()
     db.refresh(new_material)
+    
+    # Award karma to user for uploading material (+10 points)
+    from repository import user
+    try:
+        user.add_karma(user_id, 10, db)
+    except Exception as e:
+        # Log error but don't fail material creation if karma update fails
+        print(f"Error updating karma: {e}")
+    
     return new_material
 
 def destroy(id: int, db: Session):

@@ -1,0 +1,93 @@
+id,course_code,title,instructors,Credits
+1,CSC 161-1,Introduction to Programming,Andrew Read-McFarland,4
+2,CSC 170-1,Introduction to Web Development,Eustrat Zhupa,4
+3,CSC 171-1,Introduction to Computer Science,Adam Purtee,4
+4,CSC 172-1,Data Structures & Algorithms,Monika Polak,4
+5,CSC 173-1,Computation & Formal Systems,George Ferguson,4
+6,CSC 186-1,Video Game Development,Yukang Yan,4
+7,CSC 200-1,Undergraduate Problem Seminar,Fatemeh Nargesian,4
+8,CSC 200H-1,Honors Undergraduate Problem Seminar,Fatemeh Nargesian,4
+9,CSC 209-01,Seminar on Artificial General Intelligence,Christopher Kanan,2
+10,CSC 210-1,Web Programming,Andrew Read-McFarland,4
+11,CSC 211-01,Introduction to HCI,Zhen Bai,4
+12,CSC 214-1,Mobile App Development,Arthur Roolfs,4
+13,CSC 229-01,Computer Models of Perception & Cognition,Robert Jacobs,4
+14,CSC 240-1,Data Mining,Ted Pawlicki,4
+15,CSC 242-1,Introduction to Artificial Intelligence,Adam Purtee,4
+16,CSC 243-01,Advanced Computational Neuroscience,Ralf Haefner,4
+17,CSC 246-1,Machine Learning,Daniel Gildea,4
+18,CSC 247-01,Natural Language Processing,Hangfeng He,4
+19,CSC 249-1,Machine Vision,Chenliang Xu,4
+20,CSC 251-1,Advncd Computer Architecture,Michael Huang,4
+21,CSC 252-1,Computer Organization,Yuhao Zhu,4
+22,CSC 254-1,Programming Language Design & Implementation,Michael Scott,4
+23,CSC 255-1,Software Analysis & Improv,Sreepathi Pai,4
+24,CSC 258-1,Parallel & Distributed Systems,Andrew Read-McFarland,4
+25,CSC 261-1,Database Systems,Eustrat Zhupa,4
+26,CSC 263-1,Data Management Systems,Fatemeh Nargesian,4
+27,CSC 273W-1,Writing for Computer Science,Joseph Loporcaro,2
+28,CSC 278-1,Computer Security Foundations,John Criswell,4
+29,CSC 280-1,Computer Models & Limitations,Monika Polak,4
+30,CSC 282-1,Design & Analysis Efficient Algorithms,Eustrat Zhupa,4
+31,CSC 283-1,Topics in Cryptography,Monika Polak,4
+32,CSC 285-01,Gems of Algorithms and Elections,Lane Hemaspaandra,4
+33,CSC 286-1,Computational Complexity,Lane Hemaspaandra,4
+34,CSC 294-01,Nonlinear Optimization,Jiaming Liang,4
+35,CSC 295-1,Quantum Computing,Ted Pawlicki,4
+36,CSC 297-01,Great Ideas in Computer Science,George Ferguson,4
+37,CSC 299W-1,Social Implications of Computing - W,Joseph Loporcaro,4
+38,DSCC 201-1,Tools for Data Science,Brendan Mort,4
+39,DSCC 202-1,Data Science at Scale,Lloyd Palum,4
+40,DSCC 210-1,Digital Imaging,Gregory Heyworth,4
+41,DSCC 229-01,Computer Models of Perception & Cognition,Robert Jacobs,4
+42,DSCC 240-1,Data Mining,Ted Pawlicki,4
+43,DSCC 242-1,Introduction to Artificial Intelligence,Adam Purtee,4
+44,DSCC 261-1,Database Systems,Eustrat Zhupa,4
+45,DSCC 263-1,Data Management Systems,Fatemeh Nargesian,4
+46,DSCC 265-2,Introduction to Statistical Machine Learning,Cantay Caliskan,4
+47,DSCC 294-01,Nonlinear Optimization,Jiaming Liang,4
+48,MATH 141-01,Calculus I,Hari Nathan,4
+49,MATH 141-02,Calculus I,Ophelia Adams,4
+50,MATH 142-01,Calculus II,Nathanael Grand,4
+51,MATH 142-02,Calculus II,Mary Cook,4
+52,MATH 142-03,Calculus II,Wei-Cheng Huang,4
+53,MATH 142-04,Calculus II,Woongbae Park,4
+54,MATH 143-01,Calculus III,Kiera Harmatz-Kean,4
+55,MATH 143-02,Calculus III,Donovan Snyder,4
+56,MATH 150-01,Discrete Mathematics,FNU Anudeep Kumar,4
+57,MATH 150-02,Discrete Mathematics,FNU Anudeep Kumar,4
+59,MATH 161-01,Calculus IA,Woongbae Park,4
+60,MATH 161-02,Calculus IA,Wei-Cheng Huang,4
+61,MATH 162-01,Calculus IIA,Surena Hozoori,4
+62,MATH 162-02,Calculus IIA,Surena Hozoori,4
+63,MATH 162-03,Calculus IIA,Quy Pham,4
+64,MATH 162-04,Calculus IIA,Ahmad Almomani,4
+65,MATH 162-05,Calculus IIA,John Lin,4
+66,MATH 164-01,Multivariable Calculus,Hari Rau-Murthy,4
+67,MATH 164-02,Multivariable Calculus,Amanda Tucker,4
+68,MATH 164-03,Multivariable Calculus,Kalyani Madhu,4
+69,MATH 165-01,Linear Algebra with Differential Equations,Kalyani Madhu,4
+70,MATH 165-02,Linear Algebra with Differential Equations,Matthew Dannenberg,4
+71,MATH 165-03,Linear Algebra with Differential Equations,Neeraja Kulkarni,4
+72,MATH 165-04,Linear Algebra with Differential Equations,Peter Oberly,4
+73,MATH 165-05,Linear Algebra with Differential Equations,Ahmad Almomani,4
+76,MATH 200-01,Transition to Advanced Mathematics,Saul Lubkin,4
+78,MATH 201-01,Introduction to Probability,Peter Oberly,4
+79,MATH 201-02,Introduction to Probability,Carl Mueller,4
+80,MATH 201-03,Introduction to Probability,Carl Mueller,4
+81,MATH 202-1,Introduction to Stochastic Processes,Neeraja Kulkarni,4
+82,MATH 203-01,Intro to Math Statistics,Javier Bautista,4
+83,MATH 209-1,Operations Research II: Stochastic Models and Queueing Theory,Mark Herman,4
+84,MATH 210-01,Introduction to Financial Mathematics,Stephen Kleene,4
+85,MATH 218-1,Mathematical Modeling in Life Sciences,Ophelia Adams,4
+86,MATH 233-1,Mathematical Cryptography,Saul Lubkin,4
+87,MATH 235-01,Linear Algebra,Kalyani Madhu,4
+88,MATH 235-04,Linear Algebra,Hari Rau-Murthy,4
+91,MATH 236-2,Abstract Algebra I,Minsik Han,4
+95,MATH 240-1,Introduction to Topology,Allan Greenleaf,4
+99,MATH 248-1,Graph Theory,Arjun Krishnan,4
+100,MATH 250-1,Introduction to Geometry,Mary Cook,4
+101,MATH 263-1,Theory of Ordinary Differential Equations,Dan Geba,4
+102,MATH 282-2,Introduction to Complex Analysis,Mark Herman,4
+104,MATH 287-1,Math Methods in OPT & Physics,Miguel Alonso,4
+105,MATH 294-01,Nonlinear Optimization,Jiaming Liang,4

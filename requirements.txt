@@ -6,3 +6,9 @@ sqlalchemy
 boto3
 python-multipart
 python-dotenv
+
+docx
+requests
+python-docx
+
+pandas

@@ -16,6 +16,7 @@ class User(Base):
     name = Column(String)
     email = Column(String)
     password = Column(String)
+    karma = Column(Integer, default=0)  # User karma points (earned by uploading materials)
 
 class CourseMaterial(Base):
     __tablename__ = 'course_materials'

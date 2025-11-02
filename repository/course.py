@@ -72,6 +72,5 @@ def update(id:int, request: schemas.Course, db:Session):
     db.refresh(course)
     return course
 
-# def 
 
 

@@ -25,8 +25,10 @@ class ShowCourse(BaseModel):
         from_attributes = True
 
 class ShowUser(BaseModel):
-    name:str
-    email:str
+    id: int
+    name: str
+    email: str
+    karma: int = 0
     class Config():
         from_attributes = True
 
